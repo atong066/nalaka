@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nalaka/static/css/main.5189b9df.css",
-    "main.js": "/nalaka/static/js/main.b728d077.js",
+    "main.css": "/nalaka/static/css/main.2e58d221.css",
+    "main.js": "/nalaka/static/js/main.e8249720.js",
     "index.html": "/nalaka/index.html",
-    "main.5189b9df.css.map": "/nalaka/static/css/main.5189b9df.css.map",
-    "main.b728d077.js.map": "/nalaka/static/js/main.b728d077.js.map"
+    "main.2e58d221.css.map": "/nalaka/static/css/main.2e58d221.css.map",
+    "main.e8249720.js.map": "/nalaka/static/js/main.e8249720.js.map"
   },
   "entrypoints": [
-    "static/css/main.5189b9df.css",
-    "static/js/main.b728d077.js"
+    "static/css/main.2e58d221.css",
+    "static/js/main.e8249720.js"
   ]
 }

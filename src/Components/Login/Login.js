@@ -1,10 +1,9 @@
 import React from "react";
+import DrawerAppBar from './Navbar'
 
-const Login=()=>{
-    return (
-        <>
-            <h1>login</h1>
-        </>
+const Login = () =>{
+    return(
+        <DrawerAppBar></DrawerAppBar>
     )
 }
 export default Login;

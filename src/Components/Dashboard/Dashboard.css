@@ -1,0 +1,17 @@
+.cardContainer{
+    display: flex !important;
+    width: 100%;
+    height: 15vh;
+    justify-content: space-between;
+}
+.cardItem{
+    width: 18%;
+    padding: 20px;
+    display: flex;
+  
+}
+.def{
+    position: relative;
+    line-height: 33px;
+    color: #575555;
+}

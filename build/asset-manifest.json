@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nalaka/static/css/main.018aff3a.css",
+    "main.js": "/nalaka/static/js/main.5f591cbf.js",
+    "index.html": "/nalaka/index.html",
+    "main.018aff3a.css.map": "/nalaka/static/css/main.018aff3a.css.map",
+    "main.5f591cbf.js.map": "/nalaka/static/js/main.5f591cbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.018aff3a.css",
+    "static/js/main.5f591cbf.js"
+  ]
+}

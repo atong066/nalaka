@@ -1,0 +1,8 @@
+.navBar{
+    position: fixed;
+    width: 100%;
+    height: 5.7vh;
+    background: green;
+    z-index: -99;
+    left: 13%;
+}

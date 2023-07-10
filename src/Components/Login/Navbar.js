@@ -1,17 +1,28 @@
 import React from "react";
+import { useState,useEffect } from "react";
 import './Navbar.css'
 import Button from '@mui/material/Button';
 const navItems = ['Home', 'About', 'Contact'];
-    
-const Navbar =(props)=>{
-    const { window } = props;
-console.log(window);
+const Navbar =( )=>{
+    const [screenSize,setScreenSize]=useState(getCurrentDimesions())
+    function getCurrentDimesions(){
+        return{
+            width:window.innerWidth
+        }
+    }
+    useEffect(() => {
+        const updateDimension = () => {
+              setScreenSize(getCurrentDimesions())
+        }
+        window.addEventListener('resize', updateDimension);    
+        return(() => {
+            window.removeEventListener('resize', updateDimension);
+        })
+  }, [screenSize])
 
-const container = window !== undefined ? () => window().document.body : undefined;
-console.log(container);
     return (
     <div className="navBar">
-        <h1 className="logo"><a href="/">NALAKA</a></h1>
+        <h1 className="logo"><a href="/">{screenSize.width}</a></h1>
         <div className="navItems">
                 <ul>
                 {navItems.map((item) => (
